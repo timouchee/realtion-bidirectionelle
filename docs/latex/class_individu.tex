@@ -1,0 +1,166 @@
+\doxysection{Référence de la classe Individu}
+\hypertarget{class_individu}{}\label{class_individu}\index{Individu@{Individu}}
+
+
+la classe \doxylink{class_individu}{Individu} permet de representer une personne a partir de son nom et de son prénom  
+
+
+
+
+{\ttfamily \#include $<$Individu.\+h$>$}
+
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_individu_a6054caa6ec706e883bba90d48d887b7e}{Individu}} (string=\"{}\"{}, string=\"{}\"{})
+\begin{DoxyCompactList}\small\item\em Construit un objet individu a partir de son nom (1er paramètre) et de son prénom (deuxieme paramètre) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_individu_a84dcf2842927993d6c9ab833dfb6997a}{\texorpdfstring{$\sim$}{\string~}\+Individu}} ()
+\begin{DoxyCompactList}\small\item\em detruit l\textquotesingle{}objet de classe individu \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_individu_a3277118a71f354a107961e3b4975d631}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Affiche l\textquotesingle{}identité de l\textquotesingle{}individu. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_individu_af519d0c275460d8698a18fcad24e95a5}{to\+String\+And\+Link}} ()
+\item 
+void \mbox{\hyperlink{class_individu_a53a81442730231d3b94c27d7e95a9cd9}{maj\+Ma\+Voiture}} (\mbox{\hyperlink{class_voiture}{Voiture}} \texorpdfstring{$\ast$}{*}voiture)
+\item 
+void \mbox{\hyperlink{class_individu_a3872f6a28f4819ed20543db3cb956182}{set\+Ma\+Voiture}} (\mbox{\hyperlink{class_voiture}{Voiture}} \texorpdfstring{$\ast$}{*}voiture)
+\begin{DoxyCompactList}\small\item\em definit la \doxylink{class_voiture}{Voiture} conduit par un \doxylink{class_individu}{Individu} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_individu_a3e65faa0fdc3d05cb90166a6879a628e}{supprimer\+Lien}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_individu_a3c079b66da6a321ecd76a4eb7e3ac226}{nom}}
+\begin{DoxyCompactList}\small\item\em Le nom de l\textquotesingle{}individu. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_individu_a6666ba2c6eac4721a47b70007dc1c108}{prenom}}
+\begin{DoxyCompactList}\small\item\em Le prénom de l\textquotesingle{}individu. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_voiture}{Voiture}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_individu_a941c2a4c8bd407271a05aaaddd108269}{ma\+Voiture}}
+\begin{DoxyCompactList}\small\item\em Lien avec la voiture de l\textquotesingle{}individu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+la classe \doxylink{class_individu}{Individu} permet de representer une personne a partir de son nom et de son prénom 
+
+au dela de decrire un \doxylink{class_individu}{Individu} par son nom et son prénom la classe \doxylink{class_individu}{Individu} permet de représenter également la \doxylink{class_voiture}{Voiture} qu\textquotesingle{}il conduit
+
+la \doxylink{class_voiture}{Voiture} conduite par l\textquotesingle{}\doxylink{class_individu}{Individu} est représenter par un pointeur vers un objet de la classe \doxylink{class_voiture}{Voiture}
+
+\begin{DoxyWarning}{Avertissement}
+un \doxylink{class_individu}{Individu} ne peut conduiçre qu\textquotesingle{}une seule \doxylink{class_voiture}{Voiture} 
+\end{DoxyWarning}
+
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_individu_a6054caa6ec706e883bba90d48d887b7e}\label{class_individu_a6054caa6ec706e883bba90d48d887b7e} 
+\index{Individu@{Individu}!Individu@{Individu}}
+\index{Individu@{Individu}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{Individu()}{Individu()}}
+{\footnotesize\ttfamily Individu\+::\+Individu (\begin{DoxyParamCaption}\item[{string}]{n = {\ttfamily \"{}\"{}},  }\item[{string}]{p = {\ttfamily \"{}\"{}} }\end{DoxyParamCaption})}
+
+
+
+Construit un objet individu a partir de son nom (1er paramètre) et de son prénom (deuxieme paramètre) 
+
+\Hypertarget{class_individu_a84dcf2842927993d6c9ab833dfb6997a}\label{class_individu_a84dcf2842927993d6c9ab833dfb6997a} 
+\index{Individu@{Individu}!````~Individu@{\texorpdfstring{$\sim$}{\string~}Individu}}
+\index{````~Individu@{\texorpdfstring{$\sim$}{\string~}Individu}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Individu()}{\string~Individu()}}
+{\footnotesize\ttfamily Individu\+::\texorpdfstring{$\sim$}{\string~}\+Individu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+detruit l\textquotesingle{}objet de classe individu 
+
+
+
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_individu_a53a81442730231d3b94c27d7e95a9cd9}\label{class_individu_a53a81442730231d3b94c27d7e95a9cd9} 
+\index{Individu@{Individu}!majMaVoiture@{majMaVoiture}}
+\index{majMaVoiture@{majMaVoiture}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{majMaVoiture()}{majMaVoiture()}}
+{\footnotesize\ttfamily void Individu\+::maj\+Ma\+Voiture (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_voiture}{Voiture}} \texorpdfstring{$\ast$}{*}}]{voiture }\end{DoxyParamCaption})}
+
+\Hypertarget{class_individu_a3872f6a28f4819ed20543db3cb956182}\label{class_individu_a3872f6a28f4819ed20543db3cb956182} 
+\index{Individu@{Individu}!setMaVoiture@{setMaVoiture}}
+\index{setMaVoiture@{setMaVoiture}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{setMaVoiture()}{setMaVoiture()}}
+{\footnotesize\ttfamily void Individu\+::set\+Ma\+Voiture (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_voiture}{Voiture}} \texorpdfstring{$\ast$}{*}}]{voiture }\end{DoxyParamCaption})}
+
+
+
+definit la \doxylink{class_voiture}{Voiture} conduit par un \doxylink{class_individu}{Individu} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em voiture} & \mbox{[}int\mbox{]} represente un pointeur vers l\textquotesingle{}objet \doxylink{class_voiture}{Voiture} conduite par l\textquotesingle{}individu \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_individu_a3e65faa0fdc3d05cb90166a6879a628e}\label{class_individu_a3e65faa0fdc3d05cb90166a6879a628e} 
+\index{Individu@{Individu}!supprimerLien@{supprimerLien}}
+\index{supprimerLien@{supprimerLien}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{supprimerLien()}{supprimerLien()}}
+{\footnotesize\ttfamily void Individu\+::supprimer\+Lien (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_individu_a3277118a71f354a107961e3b4975d631}\label{class_individu_a3277118a71f354a107961e3b4975d631} 
+\index{Individu@{Individu}!toString@{toString}}
+\index{toString@{toString}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily string Individu\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Affiche l\textquotesingle{}identité de l\textquotesingle{}individu. 
+
+\begin{DoxyReturn}{Renvoie}
+string de la forme nom prénom
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Bogue}
+\item[\mbox{\hyperlink{bug__bug000001}{Bogue}}]un espace de trop entre le non et le prénom\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{A faire}
+\item[\mbox{\hyperlink{todo__todo000001}{A faire}}]ajouter un paramètre permetant de chosiir un affichage du type nom prénom ou prénom nom \end{DoxyRefDesc}
+\Hypertarget{class_individu_af519d0c275460d8698a18fcad24e95a5}\label{class_individu_af519d0c275460d8698a18fcad24e95a5} 
+\index{Individu@{Individu}!toStringAndLink@{toStringAndLink}}
+\index{toStringAndLink@{toStringAndLink}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{toStringAndLink()}{toStringAndLink()}}
+{\footnotesize\ttfamily string Individu\+::to\+String\+And\+Link (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_individu_a941c2a4c8bd407271a05aaaddd108269}\label{class_individu_a941c2a4c8bd407271a05aaaddd108269} 
+\index{Individu@{Individu}!maVoiture@{maVoiture}}
+\index{maVoiture@{maVoiture}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{maVoiture}{maVoiture}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_voiture}{Voiture}}\texorpdfstring{$\ast$}{*} Individu\+::ma\+Voiture}
+
+
+
+Lien avec la voiture de l\textquotesingle{}individu. 
+
+\Hypertarget{class_individu_a3c079b66da6a321ecd76a4eb7e3ac226}\label{class_individu_a3c079b66da6a321ecd76a4eb7e3ac226} 
+\index{Individu@{Individu}!nom@{nom}}
+\index{nom@{nom}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{nom}{nom}}
+{\footnotesize\ttfamily string Individu\+::nom}
+
+
+
+Le nom de l\textquotesingle{}individu. 
+
+\Hypertarget{class_individu_a6666ba2c6eac4721a47b70007dc1c108}\label{class_individu_a6666ba2c6eac4721a47b70007dc1c108} 
+\index{Individu@{Individu}!prenom@{prenom}}
+\index{prenom@{prenom}!Individu@{Individu}}
+\doxysubsubsection{\texorpdfstring{prenom}{prenom}}
+{\footnotesize\ttfamily string Individu\+::prenom}
+
+
+
+Le prénom de l\textquotesingle{}individu. 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_individu_8h}{Individu.\+h}}\item 
+\mbox{\hyperlink{_individu_8cpp}{Individu.\+cpp}}\end{DoxyCompactItemize}

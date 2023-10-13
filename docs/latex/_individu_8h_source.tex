@@ -1,0 +1,42 @@
+\doxysection{Individu.\+h}
+\hypertarget{_individu_8h_source}{}\label{_individu_8h_source}\mbox{\hyperlink{_individu_8h}{Aller à la documentation de ce fichier.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#ifndef\ INDIVIDU\_H}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ INDIVIDU\_H}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_voiture_8h}{Voiture.h}}"{}}\ \textcolor{comment}{//\ Utilisée\ ci-\/dessous}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_voiture}{Voiture}};\ \textcolor{comment}{/*\ Annonce\ une\ définition\ ultérieure\ de\ Voiture}}
+\DoxyCodeLine{00021\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permet\ de\ faire\ référence\ aux\ membres\ de\ Voiture\ dans\ la\ classe\ Individu\ */}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_individu}{Individu}}}
+\DoxyCodeLine{00035\ \{}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{comment}{//\ ATTRIBUTS}}
+\DoxyCodeLine{00037\ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_individu_a3c079b66da6a321ecd76a4eb7e3ac226}{nom}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_individu_a6666ba2c6eac4721a47b70007dc1c108}{prenom}};\ \ \ \ \ \ }
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{class_voiture}{Voiture}}\ *\mbox{\hyperlink{class_individu_a941c2a4c8bd407271a05aaaddd108269}{maVoiture}};\ }
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{comment}{//\ MÉTHODES}}
+\DoxyCodeLine{00055\ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00056\ \ \ \ \ }
+\DoxyCodeLine{00062\ \ \ \ \ \mbox{\hyperlink{class_individu}{Individu}}(\textcolor{keywordtype}{string}\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keywordtype}{string}\ =\ \textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{00067\ \ \ \ \ \mbox{\hyperlink{class_individu_a84dcf2842927993d6c9ab833dfb6997a}{\string~Individu}}();}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{comment}{//\ Méthodes\ usuelles\ :\ toString}}
+\DoxyCodeLine{00079\ \textcolor{comment}{}\ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_individu_a3277118a71f354a107961e3b4975d631}{toString}}();\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_individu_af519d0c275460d8698a18fcad24e95a5}{toStringAndLink}}();\ \textcolor{comment}{//\ Affiche\ l'identité\ de\ l'individu\ et\ de\ sa\ voiture\ s'il\ en\ a\ une}}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{comment}{//\ Méthodes\ spécifiques}}
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_individu_a53a81442730231d3b94c27d7e95a9cd9}{majMaVoiture}}(\mbox{\hyperlink{class_voiture}{Voiture}}*\ voiture);}
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_individu_a3872f6a28f4819ed20543db3cb956182}{setMaVoiture}}(\mbox{\hyperlink{class_voiture}{Voiture}}*\ voiture);}
+\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_individu_a3e65faa0fdc3d05cb90166a6879a628e}{supprimerLien}}();}
+\DoxyCodeLine{00091\ \};}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ INDIVIDU\_H}}
+
+\end{DoxyCode}
